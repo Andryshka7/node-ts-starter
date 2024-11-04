@@ -1,0 +1,19 @@
+{
+	"name": "node-ts-starter",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc && tsc-alias",
+		"start": "npm run build && node dist/index.js",
+		"dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"ts-node-dev": "^2.0.0",
+		"tsc-alias": "^1.8.10",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.6.3"
+	}
+}
